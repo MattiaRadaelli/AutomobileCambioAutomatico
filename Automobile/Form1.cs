@@ -69,6 +69,31 @@ namespace Automobile
                 auto._pedale += 5;
                 T2.Text = auto._pedale.ToString();
             }
+            if (auto._pedale == 10)
+            {
+                auto._marcia = 1;
+            }
+            if (auto._pedale == 20)
+            {
+                auto._marcia = 2;
+            }
+            if (auto._pedale == 30)
+            {
+                auto._marcia = 3;
+            }
+            if (auto._pedale == 40)
+            {
+                auto._marcia = 4;
+            }
+            if (auto._pedale == 50)
+            {
+                auto._marcia = 5;
+            }
+            if (auto._pedale == 60)
+            {
+                auto._marcia = 6;
+            }
+            T3.Text = auto._marcia.ToString();
         }
 
         private void FRENO_Click(object sender, EventArgs e)
@@ -76,7 +101,32 @@ namespace Automobile
             if (auto._pedale != 0)
                 auto._pedale -= 5;
             T2.Text = auto._pedale.ToString();
-            
+            if (auto._pedale == 10)
+            {
+                auto._marcia = 1;
+            }
+            if (auto._pedale == 20)
+            {
+                auto._marcia = 2;
+            }
+            if (auto._pedale == 30)
+            {
+                auto._marcia = 3;
+            }
+            if (auto._pedale == 40)
+            {
+                auto._marcia = 4;
+            }
+            if (auto._pedale == 50)
+            {
+                auto._marcia = 5;
+            }
+            if (auto._pedale == 60)
+            {
+                auto._marcia = 6;
+            }
+            T3.Text = auto._marcia.ToString();
+
         }
 
         private void AUM_Click(object sender, EventArgs e)
